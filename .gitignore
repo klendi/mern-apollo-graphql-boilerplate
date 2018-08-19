@@ -9,6 +9,22 @@
 # production
 /build
 
+/client/node_modules
+
+# testing
+/client/coverage
+
+# production
+/server/build
+
+/server/node_modules
+
+# testing
+/server/coverage
+
+# production
+/server/build
+
 # misc
 .DS_Store
 .env.local
