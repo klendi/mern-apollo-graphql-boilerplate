@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,900');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1.main-header {
+  color: white;
+  text-align: center;
+  font-size: 4.5em;
+  margin-top: 4em;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+
+.secondary-header {
+  text-align: center;
+  color: white;
+  margin-top: 0.5em;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.ending-note {
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  margin-top: 14em;
+}
+
+.github-link {
+  color: white;
+}
+
+body {
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
