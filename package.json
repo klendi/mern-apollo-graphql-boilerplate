@@ -1,0 +1,27 @@
+{
+  "name": "mern-graphql-apollo-boilerplate",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "server-install": "npm install --prefix server",
+    "node-server": "node --prefix server/server.js",
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klendi/mern-apollo-graphql-boilerplate.git"
+  },
+  "author": "Klendi Gocci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klendi/mern-apollo-graphql-boilerplate/issues"
+  },
+  "homepage": "https://github.com/klendi/mern-apollo-graphql-boilerplate#readme",
+  "dependencies": {
+    "concurrently": "^3.6.1"
+  }
+}
