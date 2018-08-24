@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/klendi/mern-apollo-graphql-boilerplate#readme",
   "dependencies": {
-    "concurrently": "^3.6.1"
+    "apollo-server-express": "^2.0.4",
+    "concurrently": "^3.6.1",
+    "graphql-tag": "^2.9.2"
   }
 }
