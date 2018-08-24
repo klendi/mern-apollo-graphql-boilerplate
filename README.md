@@ -16,6 +16,9 @@
 
 ## Start the app
 
+## Start both backend at frontend at once
+    npm start
+
 ### Start the client using
 
     npm run client
