@@ -14,7 +14,7 @@
     "react": "^16.4.2",
     "react-apollo": "^2.1.11",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "^2.0.0-next.a671462c"
   },
   "scripts": {
     "start": "react-scripts start",
